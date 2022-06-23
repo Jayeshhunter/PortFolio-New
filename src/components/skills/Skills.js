@@ -26,6 +26,7 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   JavaScript
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Frontend</p>
               </div>
             </div>
           </div>
@@ -40,6 +41,7 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   React.js
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Frontend</p>
               </div>
             </div>
           </div>
@@ -54,6 +56,7 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   Nodejs
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Backend</p>
               </div>
             </div>
           </div>
@@ -68,6 +71,7 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   Express js
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Backend</p>
               </div>
             </div>
           </div>
@@ -82,6 +86,7 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   Mongoose
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Database</p>
               </div>
             </div>
           </div>
@@ -96,6 +101,54 @@ function Skills() {
                 <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
                   SQL
                 </h2>
+                <p class="text-gray-500 dark:text-gray-100">Database</p>
+              </div>
+            </div>
+          </div>
+          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="h-full flex items-center border-gray-200 dark:border-gray-900 border p-4 dark:bg-gray-900 rounded-lg">
+              <img
+                alt=""
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png"
+              />
+              <div className="flex-grow">
+                <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
+                  c++
+                </h2>
+                <p class="text-gray-500 dark:text-gray-100">DSA</p>
+              </div>
+            </div>
+          </div>
+          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="h-full flex items-center border-gray-200 dark:border-gray-900 border p-4 dark:bg-gray-900 rounded-lg">
+              <img
+                alt=""
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67"
+              />
+              <div className="flex-grow">
+                <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
+                  Vercel & Heroku
+                </h2>
+                <p class="text-gray-500 dark:text-gray-100">Deployment</p>
+              </div>
+            </div>
+          </div>
+          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="h-full flex items-center border-gray-200 dark:border-gray-900 border p-4 dark:bg-gray-900 rounded-lg">
+              <img
+                alt=""
+                className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+              />
+              <div className="flex-grow">
+                <h2 className="text-gray-900 dark:text-gray-300 title-font font-medium">
+                  Git & Github
+                </h2>
+                <p class="text-gray-500 dark:text-gray-100">
+                  Distrbuted Version Control
+                </p>
               </div>
             </div>
           </div>
