@@ -11,7 +11,7 @@ function Navbar() {
           className="w-10 h-10 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/J_Church_logo.svg/1024px-J_Church_logo.svg.png"
         />
-        <span className="ml-3 text-xl">
+        <span className=" text-xl">
           {" "}
           <a href={Resume} download>
             <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 dark:text-black focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">

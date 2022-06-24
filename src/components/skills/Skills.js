@@ -7,7 +7,7 @@ function Skills() {
   return (
     <section className="text-gray-600 body-font" id="skill">
       {width > 500 ? (
-        <div className="container px-10 py-24 mx-auto">
+        <div className="container px-10 py-24 lg:px-20 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-gray-300">
               Skills
