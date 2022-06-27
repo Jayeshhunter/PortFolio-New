@@ -11,30 +11,34 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    var config = {
-      method: "post",
-      url: "https://enigmatic-caverns-13150.herokuapp.com/mail",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      data: JSON.stringify({ name, email: mail, message: mess }),
-    };
+    if (name === "" || mail === "" || mess === "") {
+      enqueueSnackbar("Empty form field :(", { variant: "error" });
+    } else {
+      var config = {
+        method: "post",
+        url: "https://enigmatic-caverns-13150.herokuapp.com/mail",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        data: JSON.stringify({ name, email: mail, message: mess }),
+      };
 
-    axios(config)
-      .then(function (response) {
-        enqueueSnackbar(
-          "Thank you for contacting me and pls check your mail :)",
-          {
-            variant: "success",
-          }
-        );
-        setName("");
-        setMail("");
-        setMessages("");
-      })
-      .catch(function (error) {
-        enqueueSnackbar("Something went wrong :(", { variant: "error" });
-      });
+      axios(config)
+        .then(function (response) {
+          enqueueSnackbar(
+            "Thank you for contacting me and pls check your mail :)",
+            {
+              variant: "success",
+            }
+          );
+          setName("");
+          setMail("");
+          setMessages("");
+        })
+        .catch(function (error) {
+          enqueueSnackbar("Something went wrong :(", { variant: "error" });
+        });
+    }
   };
 
   return (
