@@ -4,14 +4,17 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "./components/themeContext";
+import { SnackbarProvider } from "notistack";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className="bg-white dark:bg-navy-blue transition-all">
-        <App />
-      </body>
+      <SnackbarProvider maxSnack={3}>
+        <body className="bg-white dark:bg-navy-blue transition-all">
+          <App />
+        </body>
+      </SnackbarProvider>
     </ThemeProvider>
   </React.StrictMode>
 );

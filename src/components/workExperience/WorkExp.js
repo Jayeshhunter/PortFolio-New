@@ -18,7 +18,11 @@ function WorkExp() {
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-gray-300">
                 Other Noteworthy Projects
               </h1>
+              <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <span class="inline-block h-1 w-60 rounded bg-pink-500 "></span>
+              </div>
             </div>
+
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 dark:bg-gray-900 dark:border-gray-900 border-opacity-60 rounded-lg overflow-hidden">
                 <img

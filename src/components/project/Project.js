@@ -32,7 +32,7 @@ function Project({ smallT, bigT, desc, arr, url, str, git }) {
         //     </div>
         //   </div>
         // </div>
-        <section id="experience" class="py-20">
+        <section class="py-20">
           <div class="max-w-5xl mx-auto px-6 lg:px-0">
             <div class="flex flex-wrap items-center mb-6 sm:mb-32">
               <div class="w-full sm:w-2/5 z-10">
