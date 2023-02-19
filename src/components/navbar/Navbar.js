@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "./Resume.pdf";
+import Resume from "./New-Resume.pdf";
 import { HashLink as Link } from "react-router-hash-link";
 import Toggle from "../Toggle";
 function Navbar() {
